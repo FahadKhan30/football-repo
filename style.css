@@ -1,0 +1,87 @@
+/* fonts */
+@import url(<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">);
+
+/* common style */
+
+body{
+  font-family: 'Poppins', sans-serif;
+  background-color: white;
+  margin:0;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* event-banner Style*/
+
+.banner{
+  background-color: #260099;
+  width: 100%;
+  height: 600px;
+  display: flex;
+}
+.event-name{
+  font-weight: 700;
+  font-size: 70px;
+  color: white;
+  margin-left:170px;
+  margin-top: 100px;
+}
+.live{
+  color: rgb(255, 255, 255);
+  margin-left: 170px;
+  text-decoration: none;
+  background-color: #E02C6D;
+  padding: 10px 24px;
+}
+.bg img{
+  width: 556px;
+  height: 438px;
+  margin-left: 650px;
+  margin-top: 50px;
+}
+.banner:hover .live-telecast{
+  transform: scale(1.2);
+  margin-left: 20px;
+}
+
+/* Players Info Style */
+.all-players{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  flex-direction: column;
+}
+.player-info{
+  margin-top: 70px;
+}
+.player-detail{
+  padding: 15px;
+}
+.players{
+  width: 20%;
+  margin-left:30px;
+  margin-top: 27px;
+  padding: 10px;
+  box-shadow: 3px 3px 10px 3px rgb(195, 195, 195);
+  height:474px;
+  width: 330px
+}
+.player-img img{
+  width: 300px;
+  height: 256px;
+  padding: 15px;
+}
+
+/* FOOTER */
+footer{
+  align-items: center;
+  margin-top: 40px;
+}
+.logo img{
+  width: 483.87px;
+  height: 110px;
+}
