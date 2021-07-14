@@ -18,6 +18,12 @@ main{
 
 /* event-banner Style*/
 
+
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .banner{
   background-color: #260099;
   width: 100%;
@@ -25,11 +31,10 @@ main{
   display: flex;
 }
 .event-name{
-  font-weight: 700;
+  font-weight:700;
   font-size: 70px;
   color: white;
   margin-left:170px;
-  margin-top: 100px;
 }
 .live{
   color: rgb(255, 255, 255);
@@ -135,4 +140,12 @@ footer{
 .logo img{
   width: 483.87px;
   height: 110px;
+}
+@media (max-width=688px) {
+  .banner , .player-info , .next-mission , .all-copa{
+    width: 100%;
+  }
+  .event-banner , .bg , .all-players , .future-plan , .all-copa-america{
+    grid-template-columns: repeat(1,1fr);
+  }
 }
